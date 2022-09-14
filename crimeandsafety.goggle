@@ -1,0 +1,18 @@
+! name: Crime and Safety
+! description: Crime and Safety
+! public: false
+! author: Dumbo
+
+$discard
+$downrank,site=medium.com
+
+$boost=1,site=github.io
+$boost=1,site=micro.blog
+/blog.$boost=1
+/blog/$boost=1
+/engineering.$boost=2
+
+$boost=3,site=https://www.jstor.org/stable/1147595
+$boost=3,site=https://www.unodc.org/unodc/en/justice-and-prison-reform/cpcj-crime-prevention-communities.html
+$boost=3,site=https://www.researchgate.net/publication/324980405_Barriers_to_addiction_prevention_and_treatment_in_communities_with_organized_crime_The_perspective_of_health_providers
+$boost=3,site=http://www.crime-expert.com/apartments.html
